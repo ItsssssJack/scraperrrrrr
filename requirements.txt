@@ -1,0 +1,17 @@
+# Core dependencies
+requests==2.31.0
+beautifulsoup4==4.12.2
+feedparser==6.0.10
+python-dotenv==1.0.0
+
+# Supabase
+supabase==2.3.0
+
+# Reddit (Phase 2)
+praw==7.7.1
+
+# Date/time handling
+python-dateutil==2.8.2
+
+# HTML parsing
+lxml==5.1.0

@@ -1,0 +1,24 @@
+Colors
+Primary:
+#BFF549
+Accent:
+#99A1AF
+Background:
+#000000
+Text Primary:
+#000000
+Link:
+#99A1AF
+Fonts
+Inter
+Inter Fallback
+system-ui
+Helvetica Neue
+Helvetica
+Arial
+Typography
+primary: Inter
+heading: Inter
+h1: 96px
+h2: 48px
+body: 24px

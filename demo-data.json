@@ -1,0 +1,97 @@
+[
+    {
+        "id": "1",
+        "source": "rundown",
+        "title": "Viral AI agent molts past trademark trouble",
+        "url": "https://www.therundown.ai/p/viral-ai-agent-molts-past-trademark-trouble",
+        "published_date": "2026-01-28T00:00:00+00:00",
+        "summary": "PLUS: Moonshot's K2.5 open-source model rivals frontier labs. The latest developments in AI agents and trademark disputes.",
+        "author": "Rowan Cheung",
+        "image_url": "https://media.beehiiv.com/cdn-cgi/image/format=auto,fit=scale-down,onerror=redirect/uploads/asset/file/a2912fd2-b6d4-40c4-a4b1-0b035115b266/image__2_.png",
+        "tags": [
+            "AI",
+            "News"
+        ],
+        "created_at": "2026-01-28T18:00:00+00:00"
+    },
+    {
+        "id": "2",
+        "source": "bensbites",
+        "title": "Skills are taking over",
+        "url": "https://www.bensbites.com/p/skills-are-taking-over",
+        "published_date": "2026-01-28T09:00:00+00:00",
+        "summary": "AI agents are getting smarter with new skill-based architectures. Learn how the latest developments are changing the game for autonomous AI systems.",
+        "author": "Ben Tossell",
+        "image_url": "https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fskills.jpg",
+        "tags": [
+            "AI",
+            "Agents",
+            "Skills"
+        ],
+        "created_at": "2026-01-28T09:00:00+00:00"
+    },
+    {
+        "id": "3",
+        "source": "bensbites",
+        "title": "OpenAI's new reasoning model breaks benchmarks",
+        "url": "https://www.bensbites.com/p/openai-reasoning-model",
+        "published_date": "2026-01-28T10:30:00+00:00",
+        "summary": "The latest model from OpenAI shows unprecedented reasoning capabilities, outperforming previous models on complex problem-solving tasks.",
+        "author": "Ben Tossell",
+        "image_url": "https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fopenai.jpg",
+        "tags": [
+            "OpenAI",
+            "Reasoning",
+            "Benchmarks"
+        ],
+        "created_at": "2026-01-28T10:30:00+00:00"
+    },
+    {
+        "id": "4",
+        "source": "rundown",
+        "title": "Google's Gemini gets major upgrade",
+        "url": "https://www.therundown.ai/p/gemini-upgrade",
+        "published_date": "2026-01-28T08:00:00+00:00",
+        "summary": "PLUS: New multimodal capabilities and faster processing. Google announces significant improvements to their flagship AI model.",
+        "author": "Rowan Cheung",
+        "image_url": "https://media.beehiiv.com/cdn-cgi/image/format=auto,fit=scale-down,onerror=redirect/uploads/asset/file/gemini-upgrade.png",
+        "tags": [
+            "Google",
+            "Gemini",
+            "AI"
+        ],
+        "created_at": "2026-01-28T08:00:00+00:00"
+    },
+    {
+        "id": "5",
+        "source": "bensbites",
+        "title": "AI coding assistants reach 50% market adoption",
+        "url": "https://www.bensbites.com/p/ai-coding-adoption",
+        "published_date": "2026-01-28T11:00:00+00:00",
+        "summary": "New survey reveals that half of all developers now use AI coding tools daily. GitHub Copilot and Claude lead the pack.",
+        "author": "Ben Tossell",
+        "image_url": "https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fcoding.jpg",
+        "tags": [
+            "Coding",
+            "Adoption",
+            "Survey"
+        ],
+        "created_at": "2026-01-28T11:00:00+00:00"
+    },
+    {
+        "id": "6",
+        "source": "rundown",
+        "title": "Meta releases open-source LLaMA 4",
+        "url": "https://www.therundown.ai/p/llama-4-release",
+        "published_date": "2026-01-28T07:00:00+00:00",
+        "summary": "PLUS: Performance benchmarks and new features. Meta's latest open-source model challenges proprietary alternatives.",
+        "author": "Rowan Cheung",
+        "image_url": "https://media.beehiiv.com/cdn-cgi/image/format=auto,fit=scale-down,onerror=redirect/uploads/asset/file/llama4.png",
+        "tags": [
+            "Meta",
+            "LLaMA",
+            "Open Source"
+        ],
+        "created_at": "2026-01-28T07:00:00+00:00"
+    }
+]

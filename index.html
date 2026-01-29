@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Pulse Dashboard | Glaido</title>
+    <meta name="description"
+        content="Real-time AI news pulse - Stay ahead with the latest from The Rundown AI and Ben's Bites">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Supabase -->
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo-section">
+                    <img src="DesignGuidelines/Glaido Horizontal Black.png" alt="Glaido" class="logo">
+                    <span class="logo-divider">|</span>
+                    <h1 class="site-title">AI Pulse</h1>
+                </div>
+                <div class="header-stats">
+                    <span class="stat" id="article-count">
+                        <span class="stat-number">0</span>
+                        <span class="stat-label">Articles</span>
+                    </span>
+                    <span class="stat" id="saved-count">
+                        <span class="stat-number">0</span>
+                        <span class="stat-label">Saved</span>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main">
+        <div class="container">
+            <!-- Filter Bar -->
+            <div class="filter-bar">
+                <button class="filter-btn active" data-source="all">
+                    <span class="filter-icon">🌐</span>
+                    All Sources
+                </button>
+                <button class="filter-btn" data-source="rundown">
+                    <span class="filter-icon">📰</span>
+                    The Rundown
+                </button>
+                <button class="filter-btn" data-source="bensbites">
+                    <span class="filter-icon">🤖</span>
+                    Ben's Bites
+                </button>
+                <button class="filter-btn" data-source="saved">
+                    <span class="filter-icon">💾</span>
+                    Saved
+                </button>
+                <button class="refresh-btn" id="refresh-btn">
+                    <span class="refresh-icon">↻</span>
+                    Refresh
+                </button>
+            </div>
+
+            <!-- Loading State -->
+            <div class="loading-state" id="loading-state">
+                <div class="skeleton-grid">
+                    <div class="skeleton-card"></div>
+                    <div class="skeleton-card"></div>
+                    <div class="skeleton-card"></div>
+                    <div class="skeleton-card"></div>
+                    <div class="skeleton-card"></div>
+                    <div class="skeleton-card"></div>
+                </div>
+            </div>
+
+            <!-- Empty State -->
+            <div class="empty-state hidden" id="empty-state">
+                <div class="empty-icon">📭</div>
+                <h2 class="empty-title">No articles found</h2>
+                <p class="empty-text">Check back later for the latest AI news</p>
+            </div>
+
+            <!-- Error State -->
+            <div class="error-state hidden" id="error-state">
+                <div class="error-icon">⚠️</div>
+                <h2 class="error-title">Something went wrong</h2>
+                <p class="error-text" id="error-message">Unable to load articles. Please try again.</p>
+                <button class="retry-btn" onclick="location.reload()">Retry</button>
+            </div>
+
+            <!-- Articles Grid -->
+            <div class="articles-grid" id="articles-grid">
+                <!-- Articles will be dynamically inserted here -->
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p class="footer-text">
+                Powered by <span class="highlight">Glaido</span> •
+                Data from The Rundown AI & Ben's Bites •
+                Updated every 24 hours
+            </p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="app.js"></script>
+</body>
+
+</html>
